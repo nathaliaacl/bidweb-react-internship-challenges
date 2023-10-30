@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+*{
+  margin: 0;
+}
+.books{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+
+.bookshop{
+  display: flex;
+  background-color: #103d7d;
+  color: azure;
+  padding: 40px;
+  font-family: Poppins;
+  font-size: 35px;
+  align-items: center;
+  justify-content: space-between;
+}
+.cart_button {
+  font-size: 2.0rem;
+  display: flex;
+  border-radius: 25px;
+  padding: 10px;
+  color: #040303; 
+  margin-bottom: 10px;
+  margin-right: 60px;
+}
